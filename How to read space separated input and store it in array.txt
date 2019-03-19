@@ -1,0 +1,12 @@
+BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+String s[]; 
+
+	Integer.parseInt(br.readLine())                   //Always use buffererReader than scanner
+
+
+	s = br.readLine().split(" ");                     // When input is give is a line separated by space.It creates a array of String.
+
+	for(int i=0;i<len-1;i++)
+	{    	
+	    ar[i] = Integer.parseInt(s[i]);                //parsing each string into integer
+	}
