@@ -1,0 +1,40 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class GFG {
+	public static void main (String[] args)throws Exception {											
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int t = intv(br.readLine());
+		int k=0;
+		String s[];    
+		
+		while(k<t)
+		{
+		    int len= intv(br.readLine());
+		    s = br.readLine().split(" ");
+		    int ar[] = new int[len];
+		    
+		    for(int i=0;i<len;i++)
+		        ar[i] = intv(s[i]);
+		   
+		    int max=ar[len-1];
+		    System.out.printf("%d ",ar[len-1]);
+		    
+		    for(int i=len-2;i>=0;i--)
+		    {
+		        if(ar[i]>=max){
+		            System.out.printf("%d ",ar[i]);
+		            max=ar[i];
+		        }
+		            
+		    }
+		    
+		    System.out.printf("\n");
+		    k++;
+		}
+		
+	}
+	 public static int intv(String s){                             //Example Fuction, because of this Instead of writing 		   return Integer.parseInt(s);									//Integer.parseInt(br.readLine()), we call intv(br.readLine())
+    }
+}
