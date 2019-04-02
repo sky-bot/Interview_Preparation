@@ -15,28 +15,39 @@ class GFG {
 		    int len = Integer.parseInt(br.readLine());
 		    s = br.readLine().split(" ");
 		    int ar[]=new int[len];
-		    for(int i=0;i<len;i++){
+		    for(int i=0;i<len;i++)
+		    {
 		        ar[i] = Integer.parseInt(s[i]);
 		        ar[i] = ar[i]*ar[i];
 		    }
-		    
-		    for(int i=0;i<len-2;i++)
-		    {
-		        for(int j=i+1;j<len-1;j++)
+		    Arrays.sort(ar);
+		    int flag=0;
+		    int c=0;
+		    for(int i=ar.length-1;i>1;i--)
+		    {   
+		        c = ar[i];
+		        int j=0,k=i-1;
+		        while(j<k)
 		        {
-		            for(int k=len-1;k>j;k--)
+		            int sum = ar[j] + ar[k];
+		            if(sum==c)
 		            {
-		                if((ar[i]+ar[j])==ar[k])
-		                {
-		                    System.out.printf("Yes\n");
-		                    return;
-		                }      
+		            	flag=1;
+		                System.out.printf("Yes\n");
+		                break;		                
 		            }
+		            else if(sum>c)
+		                k--;
+		            else
+		                j++;
 		        }
+		        if(flag==1)
+		        	break; 
 		    }
-		    
-		    System.out.printf("No\n");
-		    l++;
+		    if(flag==0)
+		    	System.out.printf("No\n");
+		   
+			l++;
 		}
 	}
 }
