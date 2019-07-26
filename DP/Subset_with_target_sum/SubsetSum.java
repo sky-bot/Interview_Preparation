@@ -6,12 +6,11 @@
 // Output:  True  9.
 // this approach is not good since time complexity is 2^n
 
-
 import java.io.*;
 import java.util.*;
 import java.lang.*;
 
-class equalSubset
+class SubsetSum
 {
     public static void main(String args[])throws IOException
     {
