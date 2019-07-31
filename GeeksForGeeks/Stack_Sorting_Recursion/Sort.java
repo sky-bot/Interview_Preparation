@@ -51,6 +51,7 @@ class Sort
             S = Insert(S, x);
             S.push(temp);
         }
+        
         else
             S.push(x);
             
