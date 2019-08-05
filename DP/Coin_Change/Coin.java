@@ -25,6 +25,7 @@ class Coin
         // Display(arr);
         
         for(int i = 1; i < arr.length; i++)
+        {
             for(int j=0;j<arr[0].length; j++)
             {
                 if(coins[i]<=j)
@@ -42,7 +43,7 @@ class Coin
             
         }
 
-        System.out.printf("To make 11 we need %d minimum coin");
+        System.out.printf("To make 11 we need %d minimum coin",  arr[arr.length][arr[0].length]);
     }
     // public static void Display(int[][] arr)   For debugging purpose
     // {
@@ -56,5 +57,5 @@ class Coin
     //         System.out.printf("\n");
     //     }
     //     System.out.printf("===========================");
-    // }
+     
 }
