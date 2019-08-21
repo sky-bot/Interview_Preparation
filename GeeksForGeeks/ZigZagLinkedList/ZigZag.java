@@ -63,6 +63,7 @@ class ZigZag
         }
     }
 
+
     public static void main(String[] args)
     {
         ZigZag tree = new ZigZag();
@@ -109,14 +110,8 @@ class ZigZag
                     S.push(temp.right);
                     S.push(temp.left);
                 }
-
             }
             count++;
-
         }
-       
-        
     }            
 }
-
-
