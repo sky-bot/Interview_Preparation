@@ -37,11 +37,23 @@ class LinkedList:
         else:
             self.tail.link = temp
             self.tail = temp
+    
+    def search(self, data):
+        temp = self.get_head()
+        pos = 0 
+        while(temp):
+            if temp.data==data:
+                return "Element found at {}".format(pos)
+            pos = pos + 1
+            temp = temp.link
+        return "Element not present"
 
 linked = LinkedList()
 linked.insert_at_end(1)
 linked.insert_at_end(2)
 linked.insert_at_end(3)
 linked.insert_at_end(4)
-linked.insert(5)
+linked.insert_at_end(5)
+linked.search(5)
+
 linked.display()
