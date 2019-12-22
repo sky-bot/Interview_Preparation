@@ -40,13 +40,15 @@ class LinkedList:
     
     def search(self, data):
         temp = self.get_head()
-        pos = 0 
+        pos = 1
         while(temp):
             if temp.data==data:
-                return "Element found at {}".format(pos)
+                print ("Element found at {}".format(pos))
+                return
             pos = pos + 1
             temp = temp.link
-        return "Element not present"
+        print("Element not present")
+        return 
 
 linked = LinkedList()
 linked.insert_at_end(1)
