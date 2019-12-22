@@ -49,6 +49,41 @@ class LinkedList:
             temp = temp.link
         print("Element not present")
         return 
+    
+    def delete(self, data):
+        temp = self.get_head()
+
+        if temp.data == data:
+            self.head = temp.link
+            del temp
+            print("Element Deleted")
+            return True
+        prev = temp
+        cur = temp.link
+        while(cur):
+            if cur.data == data:
+                prev.link = cur.link
+                del cur
+                print("Element Deleted")
+                return True
+            else:
+                prev = cur
+                cur = cur.link
+            
+            
+            
+            
+            # if cur.data==data:
+            #     temp2 = NextNode.link
+            #     print(temp2.data)
+            #     temp.link = temp2
+            #     print("Element Deleted")
+            #     return True
+            temp = temp.link
+        print("Element not present")
+        return False
+
+        # while(temp):
 
 linked = LinkedList()
 linked.insert_at_end(1)
@@ -56,6 +91,6 @@ linked.insert_at_end(2)
 linked.insert_at_end(3)
 linked.insert_at_end(4)
 linked.insert_at_end(5)
-linked.search(5)
-
+# linked.search(5)
+linked.delete(5)
 linked.display()
