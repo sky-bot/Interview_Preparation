@@ -19,25 +19,21 @@ def isPossible(arr):
     
     mat[1][arr[0]] = True
 
-    
-
     for i in range(2, len(arr)+1):
         for j in range(1, requiredSum+1):
             _sum = mat[0][j]
-            print (_sum)
             val = mat[i-1][j-i]
             up_val = mat[i-1][_sum]
             mat[i][j] = up_val or val
 
-    
     progress(mat)
 
-    return progress
+    return mat[len(arr)][-1]
 
 
 def progress(mat):
     for i in mat:
         print(i, end='\n')
 
-isPossible([1,2,3,4])
+print(isPossible([1,2,3,4]))
 
