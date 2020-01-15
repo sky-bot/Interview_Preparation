@@ -21,16 +21,6 @@ def progress(table):
     for row in table:
         print(row, end='\n')
 
-
-
-
-
 arr = [1,1,2,3]
 target = 4
 print(SubsetCount(arr, target))
-
-# for i in range(2, len(arr)+1):
-#         for j in range(1, target+1):
-#             # exclu = table[i -1][j]
-#             table[i][j] = table[i-1][j - arr[i-1]] + table[i -1][j]
-#             # table[i][j] = max(exclu, include)
