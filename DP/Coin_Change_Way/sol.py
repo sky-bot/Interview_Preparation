@@ -9,6 +9,9 @@ def coin_change_ways(coins, val):
     for i in range(len(coins)+1):
         dp[i][0] = 1
     
+    for i in range(2, len(coins)+1):
+        for j in range(1, val+1):
+                dp[i][j] = dp[i-1][j] + dp[i][j-coins[i-1]]
     
     # for i in range()
     progress(dp)
