@@ -15,5 +15,5 @@ def progress(dp):
     for i in range(len(dp)):
         print(dp[i], end='\t')
 
-arr = [2,1,1,1,4]
+arr = [1,2,5,2,1,2]
 print('\n'+str(min_jumps(arr)))
