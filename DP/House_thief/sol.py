@@ -16,12 +16,19 @@
 
 def max_profit(arr):
     dp = [0 for i in arr]
+
+    dp[0] = arr[0]
+    dp[1] = max(arr[0], arr[1])
+
+    for i in range(2, len(arr)):
+        dp[i] = max(dp[i-1], dp[i-2]+arr[i])
+
     progress(dp)
-    pass
+    return dp[-1]
 
 def progress(arr):
     for i in arr:
         print(i, end='\t')
 
-arr = [2, 10, 14, 8, 1]
+arr = [2, 5, 1, 3, 6, 2, 4]
 print('\n'+str(max_profit(arr)))
