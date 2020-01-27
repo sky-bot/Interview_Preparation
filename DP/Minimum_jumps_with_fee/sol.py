@@ -17,7 +17,17 @@
 
 def minimum_fees(arr):
     dp = [0 for i in range(len(arr))]
+    
+
+    dp[0] = 0
+    dp[1] = arr[0]
+    dp[2] = arr[0]
+
+    for i in range(3, len(arr)):
+        dp[i] = min(dp[i-3]+arr[i-3], dp[i-2]+arr[i-2], dp[i-1]+arr[i-1])
+
     progress(dp)
+    return dp[-1]
     pass
 
 def progress(dp):
@@ -25,5 +35,5 @@ def progress(dp):
         print(dp[i], end='\t')
 
 
-fees = [1,2,5,2,1,2]
+fees = [2,3,4,5,1]
 print('\n'+str(minimum_fees(fees)))
