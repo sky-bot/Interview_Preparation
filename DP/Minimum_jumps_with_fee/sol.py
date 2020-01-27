@@ -28,7 +28,6 @@ def minimum_fees(arr):
 
     progress(dp)
     return dp[-1]
-    pass
 
 def progress(dp):
     for i in range(len(dp)):
