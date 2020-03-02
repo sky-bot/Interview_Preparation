@@ -32,14 +32,39 @@
 # Explanation: The string contains "acb" which is a permutation of the given pattern.
 
 # Sol
-
 def find_permutation(str, pattern):
-    for i in range(len(str)-len(pattern)+1):
-        
-        pass
+    print("str => {}  pattern => {}".format(str, pattern))
+    pat_dict = dict()
+
+    for i in pattern:
+        if i in pat_dict.keys():
+            pat_dict[i] = pat_dict[i] + 1
+        else:
+            pat_dict[i] = 1
+
+    for i in range(len(str)):
+        if str[i] in pat_dict.keys():
+            pat_dict[str[i]] = pat_dict[str[i]]-1
+        else:
+            return False
+    
+    for i in pat_dict.values():
+        if i != 0:
+            return False
+
+    return True
+
+
+
+def main():
+    str = "bcdxabcdy"
+    pattern = "bcdyabcdx"
+    for i in range(len(str)):
+        if i+len(pattern)<=len(str):
+            temp_val = find_permutation(str[i:i+len(pattern)], pattern)
+            # print(temp_val)
+        if temp_val:
+            return True
     return False
 
-
-str = "acb"
-pattern = "abc"
-print(find_permutation(str, pattern))
+print(main())
