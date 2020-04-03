@@ -15,18 +15,31 @@
 # Explanation: The numbers at index 0 and 2 add up to 11: 2+9=11
 # Sol
 
-def pair_with_targetsum(arr, target_sum):
-  i=0
-  j = len(arr)-1
-  result = [-1, -1]
-  while(i<j):
-    _sum = arr[i]+arr[j]
-    if _sum == target_sum:
-      return [i, j]
-    if _sum < target_sum:
-      i = i + 1
+# def pair_with_targetsum(arr, target_sum):
+#   i=0
+#   j = len(arr)-1
+#   result = [-1, -1]
+#   while(i<j):
+#     _sum = arr[i]+arr[j]
+#     if _sum == target_sum:
+#       return [i, j]
+#     if _sum < target_sum:
+#       i = i + 1
+#     else:
+#       j = j - 1
+
+
+#   return [-1, -1]
+
+def remove_duplicates(arr):
+  answer = 1
+  lastIndex = 0  
+  for i in range(1, len(arr)):
+    if arr[i] == arr[lastIndex]:
+      continue
     else:
-      j = j - 1
+      lastIndex = i
+      answer = answer + 1
+  return answer
 
-
-  return [-1, -1]
+print(remove_duplicates([2,2]))
