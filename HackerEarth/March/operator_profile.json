@@ -1,0 +1,760 @@
+{
+    "count": 1250,
+    "result": [
+        {
+            "Image": null,
+            "Certification": [
+                {
+                    "CertificationId": 6,
+                    "CertificationLevel": "CPL/MDL",
+                    "Attended": "2019-08-27",
+                    "ValidTill": "2020-08-26"
+                },
+                {
+                    "CertificationId": 3,
+                    "CertificationLevel": "GSE Basic Plus",
+                    "Attended": "2019-08-23",
+                    "ValidTill": "2020-08-22"
+                },
+                {
+                    "CertificationId": 5,
+                    "CertificationLevel": "Push Back",
+                    "Attended": "2019-08-29",
+                    "ValidTill": "2020-08-28"
+                },
+                {
+                    "CertificationId": 2,
+                    "CertificationLevel": "GSE Basic",
+                    "Attended": "2019-08-21",
+                    "ValidTill": "2020-08-20"
+                },
+                {
+                    "CertificationId": 4,
+                    "CertificationLevel": "GSE",
+                    "Attended": "2019-08-19",
+                    "ValidTill": "2020-08-18"
+                }
+            ],
+            "OperatorId": 10000040,
+            "OperatorName": "Lokesh V V"
+        },
+        {
+            "Image": null,
+            "Certification": [
+                {
+                    "CertificationId": 6,
+                    "CertificationLevel": "CPL/MDL",
+                    "Attended": "2019-07-11",
+                    "ValidTill": "2020-07-10"
+                },
+                {
+                    "CertificationId": 3,
+                    "CertificationLevel": "GSE Basic Plus",
+                    "Attended": "2019-07-09",
+                    "ValidTill": "2020-07-08"
+                },
+                {
+                    "CertificationId": 5,
+                    "CertificationLevel": "Push Back",
+                    "Attended": "2019-07-13",
+                    "ValidTill": "2020-07-12"
+                },
+                {
+                    "CertificationId": 2,
+                    "CertificationLevel": "GSE Basic",
+                    "Attended": "2019-07-05",
+                    "ValidTill": "2020-07-04"
+                },
+                {
+                    "CertificationId": 4,
+                    "CertificationLevel": "GSE",
+                    "Attended": "2019-07-01",
+                    "ValidTill": "2020-06-30"
+                }
+            ],
+            "OperatorId": 10000044,
+            "OperatorName": "Dorababu.K."
+        },
+        {
+            "Image": null,
+            "Certification": [
+                {
+                    "CertificationId": 6,
+                    "CertificationLevel": "CPL/MDL",
+                    "Attended": "2019-07-11",
+                    "ValidTill": "2020-07-10"
+                },
+                {
+                    "CertificationId": 3,
+                    "CertificationLevel": "GSE Basic Plus",
+                    "Attended": "2019-07-09",
+                    "ValidTill": "2020-07-08"
+                },
+                {
+                    "CertificationId": 5,
+                    "CertificationLevel": "Push Back",
+                    "Attended": "2019-07-13",
+                    "ValidTill": "2020-07-12"
+                },
+                {
+                    "CertificationId": 2,
+                    "CertificationLevel": "GSE Basic",
+                    "Attended": "2019-07-05",
+                    "ValidTill": "2020-07-04"
+                },
+                {
+                    "CertificationId": 4,
+                    "CertificationLevel": "GSE",
+                    "Attended": "2019-07-01",
+                    "ValidTill": "2020-06-30"
+                }
+            ],
+            "OperatorId": 10000042,
+            "OperatorName": "Greson Pinto "
+        },
+        {
+            "Image": null,
+            "Certification": [
+                {
+                    "CertificationId": 6,
+                    "CertificationLevel": "CPL/MDL",
+                    "Attended": "2019-07-23",
+                    "ValidTill": "2020-07-22"
+                },
+                {
+                    "CertificationId": 3,
+                    "CertificationLevel": "GSE Basic Plus",
+                    "Attended": "2019-07-19",
+                    "ValidTill": "2020-07-18"
+                },
+                {
+                    "CertificationId": 5,
+                    "CertificationLevel": "Push Back",
+                    "Attended": "2019-07-25",
+                    "ValidTill": "2020-07-24"
+                },
+                {
+                    "CertificationId": 2,
+                    "CertificationLevel": "GSE Basic",
+                    "Attended": "2019-07-17",
+                    "ValidTill": "2020-07-16"
+                },
+                {
+                    "CertificationId": 4,
+                    "CertificationLevel": "GSE",
+                    "Attended": "2019-07-15",
+                    "ValidTill": "2020-07-14"
+                }
+            ],
+            "OperatorId": 10000036,
+            "OperatorName": "Basavaraja P"
+        },
+        {
+            "Image": null,
+            "Certification": [
+                {
+                    "CertificationId": 6,
+                    "CertificationLevel": "CPL/MDL",
+                    "Attended": "2019-08-27",
+                    "ValidTill": "2020-08-26"
+                },
+                {
+                    "CertificationId": 3,
+                    "CertificationLevel": "GSE Basic Plus",
+                    "Attended": "2019-08-23",
+                    "ValidTill": "2020-08-22"
+                },
+                {
+                    "CertificationId": 5,
+                    "CertificationLevel": "Push Back",
+                    "Attended": "2019-08-29",
+                    "ValidTill": "2020-08-28"
+                },
+                {
+                    "CertificationId": 2,
+                    "CertificationLevel": "GSE Basic",
+                    "Attended": "2019-08-21",
+                    "ValidTill": "2020-08-20"
+                },
+                {
+                    "CertificationId": 4,
+                    "CertificationLevel": "GSE",
+                    "Attended": "2019-08-19",
+                    "ValidTill": "2020-08-18"
+                }
+            ],
+            "OperatorId": 10000041,
+            "OperatorName": "Bhaskar Raju.S."
+        }
+    ],
+    "links": {
+        "previous": null,
+        "next": "https://localhost:8000/AviLeap/operator-profile?page=2"
+    },
+    "_meta": {
+        "supervisors": [
+            {
+                "LogId": 1,
+                "OperatorId": 10000320,
+                "OperatorName": "Vishnuvardhan G",
+                "RLSTAttended": "2019-07-30T00:00:00",
+                "ValidTill": "2020-07-29T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "YES",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 2,
+                "OperatorId": 10000386,
+                "OperatorName": "Dyamanna Kandagal",
+                "RLSTAttended": "2019-07-30T00:00:00",
+                "ValidTill": "2020-07-29T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "YES",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 3,
+                "OperatorId": 10000429,
+                "OperatorName": "Purushotham Reddy R",
+                "RLSTAttended": "2019-07-30T00:00:00",
+                "ValidTill": "2020-07-29T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "YES",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 4,
+                "OperatorId": 10002128,
+                "OperatorName": "Sridhar M",
+                "RLSTAttended": "2019-07-30T00:00:00",
+                "ValidTill": "2020-07-29T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "YES",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 5,
+                "OperatorId": 10006426,
+                "OperatorName": "Divya Prakash T",
+                "RLSTAttended": "2019-07-30T00:00:00",
+                "ValidTill": "2020-07-29T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "YES",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 6,
+                "OperatorId": 10008421,
+                "OperatorName": "Nagendra Prasad H A",
+                "RLSTAttended": "2019-06-19T00:00:00",
+                "ValidTill": "2020-06-18T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "YES",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 7,
+                "OperatorId": 10000038,
+                "OperatorName": "Jayaprakash Choudhary Nalla",
+                "RLSTAttended": "2019-10-15T00:00:00",
+                "ValidTill": "2020-10-14T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "YES",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 8,
+                "OperatorId": 10000093,
+                "OperatorName": "Parthiban K",
+                "RLSTAttended": "2019-10-15T00:00:00",
+                "ValidTill": "2020-10-14T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "YES",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 9,
+                "OperatorId": 10000454,
+                "OperatorName": "Balram Yadav K",
+                "RLSTAttended": "2019-10-15T00:00:00",
+                "ValidTill": "2020-10-14T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "YES",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 10,
+                "OperatorId": 10002068,
+                "OperatorName": "Muniraju S N",
+                "RLSTAttended": "2019-10-15T00:00:00",
+                "ValidTill": "2020-10-14T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "YES",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 11,
+                "OperatorId": 10002067,
+                "OperatorName": "Sreenivasulu S",
+                "RLSTAttended": "2019-10-15T00:00:00",
+                "ValidTill": "2020-10-14T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "YES",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 12,
+                "OperatorId": 10000047,
+                "OperatorName": "Francis Saleslar",
+                "RLSTAttended": "2019-10-15T00:00:00",
+                "ValidTill": "2020-10-14T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "YES",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 13,
+                "OperatorId": 10000103,
+                "OperatorName": "Yousuf Sharieff",
+                "RLSTAttended": "2019-10-15T00:00:00",
+                "ValidTill": "2020-10-14T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "YES",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 14,
+                "OperatorId": 10000430,
+                "OperatorName": "Varadarajulu D",
+                "RLSTAttended": "2019-10-15T00:00:00",
+                "ValidTill": "2020-10-14T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "YES",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 15,
+                "OperatorId": 10000291,
+                "OperatorName": "Chowda Reddy K.M",
+                "RLSTAttended": "2019-07-30T00:00:00",
+                "ValidTill": "2020-07-29T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "YES",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 16,
+                "OperatorId": 10002888,
+                "OperatorName": "Suresh Gandhi S",
+                "RLSTAttended": "2018-03-16T00:00:00",
+                "ValidTill": "2020-03-15T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "YES",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 17,
+                "OperatorId": 10000403,
+                "OperatorName": "Manoj Kumar Mishra",
+                "RLSTAttended": "2018-03-16T00:00:00",
+                "ValidTill": "2020-03-15T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "YES",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 18,
+                "OperatorId": 10000482,
+                "OperatorName": "Senthil Kumar M",
+                "RLSTAttended": "2018-03-16T00:00:00",
+                "ValidTill": "2020-03-15T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "YES",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 19,
+                "OperatorId": 10000453,
+                "OperatorName": "Baskar P",
+                "RLSTAttended": "2018-03-16T00:00:00",
+                "ValidTill": "2020-03-15T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "YES",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 20,
+                "OperatorId": 10003538,
+                "OperatorName": "Sreekanth E R",
+                "RLSTAttended": "2018-03-16T00:00:00",
+                "ValidTill": "2020-03-15T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "***",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 21,
+                "OperatorId": 10001938,
+                "OperatorName": "Sujay Kumar J",
+                "RLSTAttended": "2018-03-16T00:00:00",
+                "ValidTill": "2020-03-15T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "***",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 22,
+                "OperatorId": 10001736,
+                "OperatorName": "Madhu R",
+                "RLSTAttended": "2018-03-30T00:00:00",
+                "ValidTill": "2020-03-29T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "YES",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 23,
+                "OperatorId": 10002934,
+                "OperatorName": "Priyan D",
+                "RLSTAttended": "2018-03-30T00:00:00",
+                "ValidTill": "2020-03-29T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "YES",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 24,
+                "OperatorId": 10000449,
+                "OperatorName": "Gajendra D M",
+                "RLSTAttended": "2018-03-30T00:00:00",
+                "ValidTill": "2020-03-29T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "YES",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 25,
+                "OperatorId": 10002057,
+                "OperatorName": "Harish J A",
+                "RLSTAttended": "2018-03-30T00:00:00",
+                "ValidTill": "2020-03-29T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "YES",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 26,
+                "OperatorId": 10002092,
+                "OperatorName": "Nagesh P R",
+                "RLSTAttended": "2018-03-30T00:00:00",
+                "ValidTill": "2020-03-29T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "YES",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 27,
+                "OperatorId": 10000626,
+                "OperatorName": "Vinod Kumar T",
+                "RLSTAttended": "2018-03-30T00:00:00",
+                "ValidTill": "2020-03-29T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "YES",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 28,
+                "OperatorId": 10014224,
+                "OperatorName": "Channakeshava G M",
+                "RLSTAttended": "2018-05-04T00:00:00",
+                "ValidTill": "2020-05-03T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "***",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 29,
+                "OperatorId": 10014225,
+                "OperatorName": "Nandankumar N",
+                "RLSTAttended": "2018-05-04T00:00:00",
+                "ValidTill": "2020-05-03T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "***",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 30,
+                "OperatorId": 10014226,
+                "OperatorName": "Periya Nayagam F",
+                "RLSTAttended": "2018-05-04T00:00:00",
+                "ValidTill": "2020-05-03T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "***",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 31,
+                "OperatorId": 10014227,
+                "OperatorName": "Karthik G",
+                "RLSTAttended": "2018-05-04T00:00:00",
+                "ValidTill": "2020-05-03T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "***",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 32,
+                "OperatorId": 10000328,
+                "OperatorName": "H.B. Jagadish",
+                "RLSTAttended": "2018-11-16T00:00:00",
+                "ValidTill": "2020-11-15T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "YES",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 33,
+                "OperatorId": 10001237,
+                "OperatorName": "Manjunath V",
+                "RLSTAttended": "2018-11-16T00:00:00",
+                "ValidTill": "2020-11-15T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "***",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 34,
+                "OperatorId": 10015966,
+                "OperatorName": "Somanna B N",
+                "RLSTAttended": "2018-12-14T00:00:00",
+                "ValidTill": "2020-12-13T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "***",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 35,
+                "OperatorId": 10015967,
+                "OperatorName": "Jagadeesha G T",
+                "RLSTAttended": "2018-12-14T00:00:00",
+                "ValidTill": "2020-12-13T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "***",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 36,
+                "OperatorId": 10016279,
+                "OperatorName": "Johnpaul S",
+                "RLSTAttended": "2018-12-14T00:00:00",
+                "ValidTill": "2020-12-13T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "***",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 37,
+                "OperatorId": 10015731,
+                "OperatorName": "Prathipa B",
+                "RLSTAttended": "2019-03-25T00:00:00",
+                "ValidTill": "2021-03-24T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "***",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 38,
+                "OperatorId": 10004689,
+                "OperatorName": "Amit Chopra",
+                "RLSTAttended": "2019-06-21T00:00:00",
+                "ValidTill": "2020-06-20T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "***",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 39,
+                "OperatorId": 10004404,
+                "OperatorName": "Dhanaraj Patil",
+                "RLSTAttended": "2019-08-23T00:00:00",
+                "ValidTill": "2020-08-22T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "***",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 40,
+                "OperatorId": 10005972,
+                "OperatorName": "Dwarakanath N",
+                "RLSTAttended": "2020-01-03T00:00:00",
+                "ValidTill": "2021-01-02T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "***",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 41,
+                "OperatorId": 10002673,
+                "OperatorName": "Samuel John K",
+                "RLSTAttended": "2020-01-03T00:00:00",
+                "ValidTill": "2021-01-02T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "***",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            },
+            {
+                "LogId": 42,
+                "OperatorId": 10004280,
+                "OperatorName": "Sandeepa M S",
+                "RLSTAttended": "2020-01-03T00:00:00",
+                "ValidTill": "2021-01-02T00:00:00",
+                "NarrowBody": "YES",
+                "WideBody": "***",
+                "Airport": 13,
+                "Entity": 9,
+                "Image": null,
+                "isDeleted": 0
+            }
+        ],
+        "certifications": {
+            "2": "[' MOBILE/TOWABLE CONVEYOR', 'WATER CART', 'TOILET CART', 'CARGO PALET TRANSPORTER', ' ETV (ONLY FOR CARGO)', 'VNA(ONLY FOR CARGO)']",
+            "3": "['PASSENGER STEP LADDER', 'AMBULIFT', 'GROUND POWER UNIT', 'AIR COOLING UNIT', 'AIR STARTER UNIT', 'PASSENGER COACH']",
+            "4": "[' DIESEL TRACTOR (FARM TRACTORS OTHERS)', 'CREW VAN', ' ELECTRICAL TUG', 'FORK LIFT']",
+            "5": "['PUSHBACK (N/B / W/B)']\r\n",
+            "6": "['LOWER DECK LOADER/MAINDECK LOADER']"
+        },
+        "columns": [
+            "OperatorName",
+            "OperatorId",
+            "CertificationLevel",
+            "Equipments",
+            "Attended",
+            "ValidTill",
+            "Image"
+        ]
+    }
+}
