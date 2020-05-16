@@ -23,6 +23,28 @@
 # The number of nodes in the tree is at most 10000.
 # The final answer is guaranteed to be less than 2^31.
 
+# class Solution:
+#     def rangeSumBST(self, root: TreeNode, L: int, R: int) -> int:
+        
+#         result = self.cal_sum(root, L, R, 0)
+        
+#         return result
+        
+#     def cal_sum(self, root, L, R, result):
+        
+#         if not root:
+#             return result
+        
+#         left = self.cal_sum(root.left, L, R, result)
+#         right = self.cal_sum(root.right, L, R, result)
+        
+#         if root.val < L or root.val > R:
+#             return left + right
+        
+#         return left + right + root.val
+
+
+# Better Solution
 class Solution:
     def rangeSumBST(self, root: TreeNode, L: int, R: int) -> int:
         
@@ -35,8 +57,10 @@ class Solution:
         if not root:
             return result
         
-        left = self.cal_sum(root.left, L, R, result)
-        right = self.cal_sum(root.right, L, R, result)
+        
+        left = 0 if root.val < L else self.cal_sum(root.left, L, R, result)
+        
+        right = 0 if root.val > R else self.cal_sum(root.right, L, R, result)
         
         if root.val < L or root.val > R:
             return left + right
