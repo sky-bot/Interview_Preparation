@@ -29,3 +29,4 @@ class Solution:
                 tail = last_ele
                 
         return head  
+        
