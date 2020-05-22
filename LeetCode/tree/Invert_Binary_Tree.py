@@ -1,5 +1,5 @@
 class Solution:
-    def invertTree(self, root: TreeNode) -> TreeNode:
+    def invertTree(self, root: TreeNode):
         if not root:
             return 
         self.invertTree(root.left)
@@ -7,5 +7,4 @@ class Solution:
         
         if root.right or root.left:
             root.left, root.right = root.right, root.left
-        
         return root
