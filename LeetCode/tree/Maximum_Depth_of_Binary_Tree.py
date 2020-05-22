@@ -9,3 +9,4 @@ class Solution:
         height += 1
         
         return max(self.calculate(root.left, height), self.calculate(root.right, height))
+        
