@@ -15,5 +15,4 @@ class Solution:
         node.left = self.convert(nums, left, midpoint-1)
         node.right = self.convert(nums, midpoint+1, right)
         
-        
         return node
