@@ -22,6 +22,5 @@ class Solution:
             self.cal(root.right, sum, root.val)
             self.cal(root.left, sum, cur_till)
             self.cal(root.right, sum, cur_till)
-        
-            
+         
         return
