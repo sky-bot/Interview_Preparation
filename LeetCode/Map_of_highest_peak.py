@@ -1,3 +1,4 @@
+from collections import deque
 class Solution:
     def highestPeak(self, isWater: List[List[int]]) -> List[List[int]]:
         up = 0
